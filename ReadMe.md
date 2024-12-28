@@ -1,0 +1,1 @@
+encore build docker --config=./infra-config.json url-shortener:v1.0

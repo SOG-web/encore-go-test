@@ -2,7 +2,7 @@
     "$schema": "https://encore.dev/schemas/infra.schema.json",
     "sql_servers": [
        {
-          "host": "localhost:5432",
+          "host": "my-db-host:5432",
           "databases": {
              "url": {
                 "username": "encore-user",
