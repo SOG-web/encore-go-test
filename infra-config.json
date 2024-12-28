@@ -1,0 +1,17 @@
+{
+    "$schema": "https://encore.dev/schemas/infra.schema.json",
+    "sql_servers": [
+       {
+          "host": "localhost:5432",
+          "databases": {
+             "url": {
+                "username": "encore-user",
+                 "password": {"$env": "DB_PASSWORD"},
+                 "max_connections": 100,
+                 "min_connections": 10
+             }
+          }
+       }
+    ]
+ }
+ 
